@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "izafGwu4KLYrrIZTu/+GLDAhkx0frQI75X1TA5q1H4A=",
+  "Source": "System.WebApi",
+  "BasePath": "_content/System.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "System.WebApi\\wwwroot",
+      "Source": "System.WebApi",
+      "ContentRoot": "C:\\Users\\nbatista\\Documents\\Proyectos\\LisitApi\\LisitApi\\System.Api\\wwwroot\\",
+      "BasePath": "_content/System.WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\nbatista\\Documents\\Proyectos\\LisitApi\\LisitApi\\System.Api\\wwwroot\\swagger-ui\\SwaggerDark.css",
+      "SourceId": "System.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nbatista\\Documents\\Proyectos\\LisitApi\\LisitApi\\System.Api\\wwwroot\\",
+      "BasePath": "_content/System.WebApi",
+      "RelativePath": "swagger-ui/SwaggerDark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger-ui\\SwaggerDark.css"
+    }
+  ]
+}

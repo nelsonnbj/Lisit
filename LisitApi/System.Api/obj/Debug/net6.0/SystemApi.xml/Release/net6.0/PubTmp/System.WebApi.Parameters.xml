@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="refactory" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Kenlly\ Novas\\Documents\\LenguasExtranjerasBackend\\SystemLenguaExtranjera\\System\.Api\\obj\\Debug\\net6\.0\\SystemApi\.xml\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

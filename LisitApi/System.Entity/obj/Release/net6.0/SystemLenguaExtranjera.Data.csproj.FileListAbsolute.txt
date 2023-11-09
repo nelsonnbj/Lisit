@@ -1,0 +1,12 @@
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\bin\Release\net6.0\SystemLenguaExtranjera.Data.deps.json
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\bin\Release\net6.0\SystemLenguaExtranjera.Data.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\bin\Release\net6.0\SystemLenguaExtranjera.Data.pdb
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Release\net6.0\SystemLenguaExtranjera.Data.csproj.AssemblyReference.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Release\net6.0\SystemLenguaExtranjera.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Release\net6.0\SystemLenguaExtranjera.Data.AssemblyInfoInputs.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Release\net6.0\SystemLenguaExtranjera.Data.AssemblyInfo.cs
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Release\net6.0\SystemLenguaExtranjera.Data.csproj.CoreCompileInputs.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Release\net6.0\SystemLenguaExtranjera.Data.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Release\net6.0\refint\SystemLenguaExtranjera.Data.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Release\net6.0\SystemLenguaExtranjera.Data.pdb
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Release\net6.0\ref\SystemLenguaExtranjera.Data.dll

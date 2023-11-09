@@ -1,0 +1,15 @@
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Release\net6.0\System.Infrastructure.deps.json
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Release\net6.0\System.Infrastructure.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Release\net6.0\System.Infrastructure.pdb
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Release\net6.0\SystemLenguaExtranjera.Data.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Release\net6.0\SystemLenguaExtranjera.Data.pdb
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\System.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\System.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\System.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\System.Infrastructure.AssemblyInfo.cs
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\System.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\System.Infrastructure.csproj.CopyComplete
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\System.Infrastructure.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\refint\System.Infrastructure.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\System.Infrastructure.pdb
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\ref\System.Infrastructure.dll

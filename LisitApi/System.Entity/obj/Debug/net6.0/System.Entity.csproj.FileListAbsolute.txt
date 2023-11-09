@@ -1,0 +1,12 @@
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\bin\Debug\net6.0\System.Entity.deps.json
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\bin\Debug\net6.0\System.Entity.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\bin\Debug\net6.0\System.Entity.pdb
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\System.Entity.csproj.AssemblyReference.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\System.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\System.Entity.AssemblyInfoInputs.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\System.Entity.AssemblyInfo.cs
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\System.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\System.Entity.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\refint\System.Entity.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\System.Entity.pdb
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\ref\System.Entity.dll

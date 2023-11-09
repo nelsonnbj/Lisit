@@ -1,0 +1,41 @@
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\bin\Debug\net6.0\SystemLenguaExtranjera.Data.deps.json
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\bin\Debug\net6.0\SystemLenguaExtranjera.Data.runtimeconfig.json
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\bin\Debug\net6.0\SystemLenguaExtranjera.Data.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\bin\Debug\net6.0\SystemLenguaExtranjera.Data.pdb
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.csproj.AssemblyReference.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.AssemblyInfoInputs.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.AssemblyInfo.cs
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.csproj.CoreCompileInputs.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\refint\SystemLenguaExtranjera.Data.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.pdb
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.genruntimeconfig.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\ref\SystemLenguaExtranjera.Data.dll
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\bin\Debug\net6.0\SystemLenguaExtranjera.Data.deps.json
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\bin\Debug\net6.0\SystemLenguaExtranjera.Data.runtimeconfig.json
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\bin\Debug\net6.0\SystemLenguaExtranjera.Data.dll
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\bin\Debug\net6.0\SystemLenguaExtranjera.Data.pdb
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.csproj.AssemblyReference.cache
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.AssemblyInfoInputs.cache
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.AssemblyInfo.cs
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.csproj.CoreCompileInputs.cache
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.dll
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\refint\SystemLenguaExtranjera.Data.dll
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.pdb
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.genruntimeconfig.cache
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\ref\SystemLenguaExtranjera.Data.dll
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\bin\Debug\net6.0\SystemLenguaExtranjera.Data.deps.json
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\bin\Debug\net6.0\SystemLenguaExtranjera.Data.runtimeconfig.json
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\bin\Debug\net6.0\SystemLenguaExtranjera.Data.dll
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\bin\Debug\net6.0\ref\SystemLenguaExtranjera.Data.dll
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\bin\Debug\net6.0\SystemLenguaExtranjera.Data.pdb
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.AssemblyInfoInputs.cache
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.AssemblyInfo.cs
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.csproj.CoreCompileInputs.cache
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.dll
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\ref\SystemLenguaExtranjera.Data.dll
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.pdb
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Entity\obj\Debug\net6.0\SystemLenguaExtranjera.Data.genruntimeconfig.cache

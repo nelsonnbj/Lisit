@@ -1,0 +1,15 @@
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Release\net6.0\System.Services.deps.json
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Release\net6.0\System.Services.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Release\net6.0\System.Services.pdb
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Release\net6.0\System.Entity.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Release\net6.0\System.Entity.pdb
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\System.Services.csproj.AssemblyReference.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\System.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\System.Services.AssemblyInfoInputs.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\System.Services.AssemblyInfo.cs
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\System.Services.csproj.CoreCompileInputs.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\System.Services.csproj.CopyComplete
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\System.Services.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\refint\System.Services.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\System.Services.pdb
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Release\net6.0\ref\System.Services.dll

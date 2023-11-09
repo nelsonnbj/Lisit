@@ -1,0 +1,94 @@
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\System.Infrastructure.deps.json
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\System.Infrastructure.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\System.Infrastructure.pdb
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\SystemLenguaExtranjera.Data.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\SystemLenguaExtranjera.Data.pdb
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.AssemblyInfo.cs
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.csproj.CopyComplete
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\refint\System.Infrastructure.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.pdb
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\ref\System.Infrastructure.dll
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\EmailTemplate\ConfirmationEmail.html
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\EmailTemplate\RecoverPassword.html
+C:\Users\Kenlly Novas\Documents\LenguasExtranjerasBackend\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\EmailTemplate\mescyt.png
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\EmailTemplate\ConfirmationEmail.html
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\EmailTemplate\mescyt.png
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\EmailTemplate\RecoverPassword.html
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\System.Infrastructure.deps.json
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\System.Infrastructure.dll
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\System.Infrastructure.pdb
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\SystemLenguaExtranjera.Data.dll
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\SystemLenguaExtranjera.Data.pdb
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.AssemblyInfo.cs
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.csproj.CopyComplete
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.dll
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\refint\System.Infrastructure.dll
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.pdb
+C:\Users\Kenlly Novas\Documents\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\ref\System.Infrastructure.dll
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\EmailTemplate\ConfirmationEmail.html
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\EmailTemplate\mescyt.png
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\EmailTemplate\RecoverPassword.html
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\System.Infrastructure.deps.json
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\System.Infrastructure.dll
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\ref\System.Infrastructure.dll
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\System.Infrastructure.pdb
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\SystemTheLastBugSpa.Data.dll
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\bin\Debug\net6.0\SystemTheLastBugSpa.Data.pdb
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.AssemblyInfo.cs
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.csproj.CopyComplete
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.dll
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\ref\System.Infrastructure.dll
+C:\Users\nbatista\Desktop\API\sistema-autorizacion\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.pdb
+C:\Users\nbatista\Documents\Proyectos\LisitApi\lisit\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nbatista\Documents\Proyectos\LisitApi\lisit\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\nbatista\Documents\Proyectos\LisitApi\lisit\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.AssemblyInfo.cs
+C:\Users\nbatista\Documents\Proyectos\LisitApi\lisit\SystemLenguaExtranjera\System.Services\obj\Debug\net6.0\System.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\nbatista\Documents\LisitApi\System.Services\bin\Debug\net6.0\EmailTemplate\ConfirmationEmail.html
+C:\Users\nbatista\Documents\LisitApi\System.Services\bin\Debug\net6.0\EmailTemplate\mescyt.png
+C:\Users\nbatista\Documents\LisitApi\System.Services\bin\Debug\net6.0\EmailTemplate\RecoverPassword.html
+C:\Users\nbatista\Documents\LisitApi\System.Services\bin\Debug\net6.0\System.Infrastructure.deps.json
+C:\Users\nbatista\Documents\LisitApi\System.Services\bin\Debug\net6.0\System.Infrastructure.dll
+C:\Users\nbatista\Documents\LisitApi\System.Services\bin\Debug\net6.0\ref\System.Infrastructure.dll
+C:\Users\nbatista\Documents\LisitApi\System.Services\bin\Debug\net6.0\System.Infrastructure.pdb
+C:\Users\nbatista\Documents\LisitApi\System.Services\bin\Debug\net6.0\SystemTheLastBugSpa.Data.dll
+C:\Users\nbatista\Documents\LisitApi\System.Services\bin\Debug\net6.0\SystemTheLastBugSpa.Data.pdb
+C:\Users\nbatista\Documents\LisitApi\System.Services\obj\Debug\net6.0\System.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\nbatista\Documents\LisitApi\System.Services\obj\Debug\net6.0\System.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nbatista\Documents\LisitApi\System.Services\obj\Debug\net6.0\System.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\nbatista\Documents\LisitApi\System.Services\obj\Debug\net6.0\System.Infrastructure.AssemblyInfo.cs
+C:\Users\nbatista\Documents\LisitApi\System.Services\obj\Debug\net6.0\System.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\nbatista\Documents\LisitApi\System.Services\obj\Debug\net6.0\System.Infrastructure.csproj.CopyComplete
+C:\Users\nbatista\Documents\LisitApi\System.Services\obj\Debug\net6.0\System.Infrastructure.dll
+C:\Users\nbatista\Documents\LisitApi\System.Services\obj\Debug\net6.0\ref\System.Infrastructure.dll
+C:\Users\nbatista\Documents\LisitApi\System.Services\obj\Debug\net6.0\System.Infrastructure.pdb
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\bin\Debug\net6.0\EmailTemplate\ConfirmationEmail.html
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\bin\Debug\net6.0\EmailTemplate\mescyt.png
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\bin\Debug\net6.0\EmailTemplate\RecoverPassword.html
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\bin\Debug\net6.0\System.Infrastructure.deps.json
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\bin\Debug\net6.0\System.Infrastructure.dll
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\bin\Debug\net6.0\ref\System.Infrastructure.dll
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\bin\Debug\net6.0\System.Infrastructure.pdb
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\bin\Debug\net6.0\SystemTheLastBugSpa.Data.dll
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\bin\Debug\net6.0\SystemTheLastBugSpa.Data.pdb
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\obj\Debug\net6.0\System.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\obj\Debug\net6.0\System.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\obj\Debug\net6.0\System.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\obj\Debug\net6.0\System.Infrastructure.AssemblyInfo.cs
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\obj\Debug\net6.0\System.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\obj\Debug\net6.0\System.Infrastructure.csproj.CopyComplete
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\obj\Debug\net6.0\System.Infrastructure.dll
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\obj\Debug\net6.0\ref\System.Infrastructure.dll
+C:\Users\nbatista\Documents\Proyectos\LisitApi\LisitApi\System.Services\obj\Debug\net6.0\System.Infrastructure.pdb

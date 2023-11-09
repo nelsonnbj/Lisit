@@ -1,0 +1,7 @@
+1- Descargar el proyecto LisitApi.
+2- Correr el script de BD "BDScript" en un servidor de sql server.
+3- Cambiar la ruta de la BD en el appsettings.json del aplicativo.
+4- Correr el Api.
+5- Crear los roles.
+6- Registar el usuario para logearse.
+7- Logearse en el api.

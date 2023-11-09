@@ -1,0 +1,1285 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:System.WebApi.Controllers.AccountController.InicioSeccion(System.Infrastructure.DTO.LoginDTO)">
+            <summary>
+            Metodo utilizado para logiar a los usuarios
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="user"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
+        </member>
+        <member name="M:System.WebApi.Controllers.AccountController.Register(System.Infrastructure.DTO.ApplicantDTO)">
+            <summary>
+            Methods use for register the applicant
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="user"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.AccountController.RefreshToken(System.Infrastructure.DTO.TokenRefreshDTO)">
+            <summary>
+            Metodo utilizado para refrescar los token usuarios
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="tokenRequest"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
+        </member>
+        <member name="M:System.WebApi.Controllers.AccountController.RecoverPassword(System.Infrastructure.DTO.EmailUserDTO)">
+            <summary>
+            Metodo utilizado para recuperar los password a los usuarios sin roles
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="request"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
+        </member>
+        <member name="M:System.WebApi.Controllers.AccountController.ChangePassword(System.Infrastructure.DTO.ChangePasswordDTO)">
+            <summary>
+            Metodo utilizado para cambiar los claves a los usuarios sin roles
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="request"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
+        </member>
+        <member name="M:System.WebApi.Controllers.AccountController.GetUserByEmail(System.Infrastructure.DTO.EmailUserDTO)">
+            <summary>
+            Metodo utilizado para obtener  los  a los usuarios por elmail
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="emailRequest"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
+        </member>
+        <member name="M:System.WebApi.Controllers.AccountController.ConfirmEmail(System.String,System.String)">
+            <summary>
+            Metodo utilizado para confirmar   los  a los usuarios por elmail
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="userId"></param>
+            <param name="token"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
+        </member>
+        <member name="M:System.WebApi.Controllers.AnnouncementController.Get(System.String,System.Int32)">
+            <summary>
+            Lista de  convocatoria.
+            </summary>q
+            <remarks>
+            Metodo que trae todas las  convocatorias del sistema.
+            </remarks>
+        </member>
+        <member name="M:System.WebApi.Controllers.AnnouncementController.GetAnnouncement(System.Guid)">
+            <summary>
+            Obtiene  la convocatoria atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>        
+        </member>
+        <member name="M:System.WebApi.Controllers.AnnouncementController.PostAnnouncement(System.Infrastructure.DTO.AnnouncementDTO)">
+            <summary>
+            Metodo utilizado para guardar las convocatoria
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.AnnouncementController.UpdateAnnouncement(System.Guid,System.Infrastructure.DTO.AnnouncementDTO)">
+            <summary>
+            Metodo utilizado para actualizar las convocatoria
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.AnnouncementController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar las convocatorias
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.AnnouncementController.DeleteProvincesAnnouncements(System.Guid,System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar el rencitos
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.AnnouncementController.SetAnnouncementStatus(System.Guid,System.Guid)">
+            <summary>
+            Metodo utilizado para abrir una convocatoria
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="idAnmouncement"></param>
+            <param name="idState"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.AnnouncementController.GetByStatus(System.Guid)">
+            <summary>
+            Lista de  convocatoria por estatus
+            </summary>
+            <remarks>
+            Metodo que trae todas las  convocatorias del sistema por estatus
+            </remarks>
+        </member>
+        <member name="M:System.WebApi.Controllers.AnnouncementRequestController.GetAnnouncementRequests">
+            <summary>
+            Lista de solicitudes de convocatoria
+            </summary>
+            <remarks>
+            Metodo que trae todas las solicitudes de convocatorias del sistema
+            </remarks>
+        </member>
+        <member name="M:System.WebApi.Controllers.AnnouncementRequestController.GetAnnouncementRequest(System.Guid)">
+            <summary>
+            Retorna una solicitud de convocatoria
+            </summary>
+            <remarks>
+            Metodo que trae una solicitud de convocatoria del sistema
+            </remarks>
+        </member>
+        <member name="M:System.WebApi.Controllers.AnnouncementRequestController.SetAnnouncementRequestStatus(System.Guid,System.Guid)">
+            <summary>
+            Cambia el estado de una solicitud de convocatoria
+            </summary>
+            <remarks>
+            Metodo que cambia el estado de una solicitud de convocatoria del sistema
+            </remarks>
+        </member>
+        <member name="M:System.WebApi.Controllers.AssignmentController.GetAssigment(System.String,System.String,System.Int32)">
+            <summary>
+            Obtiene un resultado paginado de los objetos de la BD.
+            </summary>
+            <param name="search"></param>
+            <param name="position"></param>
+            <param name="page"></param>     
+            <returns></returns>
+        </member>
+        <member name="M:System.WebApi.Controllers.AssignmentController.GetAssigment(System.Guid)">
+            <summary>
+            Obtiene  la Assigment atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>      
+        </member>
+        <member name="M:System.WebApi.Controllers.AssignmentController.PostAssignment(System.Infrastructure.ViewModels.AssignmentDto)">
+            <summary>
+            Metodo utilizado para guardar las Language
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.AssignmentController.UpdateAssignment(System.Guid,System.Infrastructure.ViewModels.AssignmentDto)">
+            <summary>
+            Metodo utilizado para actualizar las Language
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.AssignmentController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar las Assignment
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.ClassroomController.GetClassroom(System.String,System.Int32)">
+            <summary>
+            Lista de  nivel.
+            </summary>
+            <remarks>
+            Metodo que trae todos los nivel del sistema.
+            </remarks>
+        </member>
+        <member name="M:System.WebApi.Controllers.ClassroomController.GetClassrooml(System.Guid)">
+            <summary>
+            Obtiene  la aula atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>        
+        </member>
+        <member name="M:System.WebApi.Controllers.ClassroomController.PostClassroom(System.Infrastructure.DTO.ClassroomDto)">
+            <summary>
+            Metodo utilizado para guardar el aula
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.ClassroomController.UpdateClassroom(System.Guid,System.Infrastructure.DTO.ClassroomDto)">
+            <summary>
+            Metodo utilizado para actualizar las aula
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.ClassroomController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar las aulas
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.ContractController.GetContract(System.String,System.Int32)">
+            <summary>
+            Obtiene un resultado paginado de los objetos de la BD.
+            </summary>
+            <param name="Search"></param>
+            <param name="page"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.WebApi.Controllers.ContractController.GetContract(System.Guid)">
+            <summary>
+            Obtiene  la Contract atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>      
+        </member>
+        <member name="M:System.WebApi.Controllers.ContractController.PostContract(System.Infrastructure.DTO.ContractDto)">
+            <summary>
+            Metodo utilizado para guardar las Contract
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.ContractController.UpdateContract(System.Infrastructure.DTO.ContractDto)">
+            <summary>
+            Metodo utilizado para actualizar las Contract
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.ContractController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar las Contract
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.CorrespondenceController.GetCorrespondence(System.String,System.Int32)">
+            <summary>
+            Obtiene un resultado paginado de los objetos de la BD.
+            </summary>     
+        </member>
+        <member name="M:System.WebApi.Controllers.CorrespondenceController.GetCorrespondence(System.Guid)">
+            <summary>
+            Obtiene  los estado atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>      
+        </member>
+        <member name="M:System.WebApi.Controllers.CorrespondenceController.PostCorrespondence(System.Infrastructure.DTO.CorrespondenceDto)">
+            <summary>
+            Metodo utilizado para guardar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.CorrespondenceController.UpdateCorrespondence(System.Guid,System.Infrastructure.DTO.CorrespondenceDto)">
+            <summary>
+            Metodo utilizado para actualizar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.CorrespondenceController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.DependenceController.Get(System.Int32)">
+            <summary>
+            Lista de  recinto.
+            </summary>
+            <remarks>
+            Metodo que trae todos los recinto del sistema.
+            </remarks>
+        </member>
+        <member name="M:System.WebApi.Controllers.DependenceController.GetAllByIntitution(System.Guid)">
+            <summary>
+            Lista de  recinto.
+            </summary>
+            <remarks>
+            Metodo que trae todos los recinto atraves del IdIntitution.
+            </remarks>
+        </member>
+        <member name="M:System.WebApi.Controllers.DependenceController.GetById(System.Guid)">
+            <summary>
+            Obtiene  la recinto atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>        
+        </member>
+        <member name="M:System.WebApi.Controllers.DependenceController.Post(System.Infrastructure.DTO.DependenceDTO)">
+            <summary>
+            Metodo utilizado para guardar el recinto
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.DependenceController.Update(System.Infrastructure.DTO.DependenceDTO)">
+            <summary>
+            Metodo utilizado para actualizar las recintos
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.DependenceController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar el rencitos
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.EmployeesController.GetEmployee(System.String,System.Int32)">
+            <summary>
+            Lista de  Employees.
+            </summary>
+            <remarks>
+            Metodo que trae todas loas Employees.
+            </remarks>      
+        </member>
+        <member name="M:System.WebApi.Controllers.EmployeesController.GetEmployees(System.Guid)">
+            <summary>
+            Obtiene  el empleado  atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>        
+        </member>
+        <member name="M:System.WebApi.Controllers.EmployeesController.UpdateEmployees(System.Guid,System.Infrastructure.DTO.EmployeeDtos)">
+            <summary>
+            Metodo utilizado para actualizar los Employee
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.EmployeesController.UpdateAcademyApplicant(System.Guid,System.Infrastructure.DTO.AcademyApplicantDTo)">
+            <summary>
+            Metodo utilizado para actualizar los Employee
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.EmployeesController.UpdateApplicantWork(System.Guid,System.Infrastructure.DTO.ApplicantWorkingDto)">
+            <summary>
+            Metodo utilizado para actualizar los Employee
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.EmployeesController.PostFileList(System.Guid,System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            Metodo utilizado para actualizar los Employee
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.EvaluationController.GetEvaluation(System.String,System.Int32)">
+            <summary>
+            Obtiene un resultado paginado de los objetos de la BD.
+            </summary>
+            <param name="Search"></param>
+            <param name="page"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.WebApi.Controllers.EvaluationController.GetEvaluation(System.Guid)">
+            <summary>
+            Obtiene  la evaluation atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>      
+        </member>
+        <member name="M:System.WebApi.Controllers.EvaluationController.PostEvaluation(System.Infrastructure.DTO.EvaluationDTo)">
+            <summary>
+            Metodo utilizado para guardar las Language
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.EvaluationController.UpdateEvaluation(System.Guid,System.Infrastructure.DTO.EvaluationDTo)">
+            <summary>
+            Metodo utilizado para actualizar las Language
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.EvaluationController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar las languaje
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.InstitutionController.GetInstitution(System.String,System.Int32)">
+            <summary>
+            Obtiene un resultado paginado de los objetos de la BD.
+            </summary>
+            <param name="Search"></param>
+            <param name="page"></param>
+            <param name="records_per_page"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.WebApi.Controllers.InstitutionController.GetInstitution(System.Guid)">
+            <summary>
+            Obtiene  la Language atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>      
+        </member>
+        <member name="M:System.WebApi.Controllers.InstitutionController.PostInstitution(System.Infrastructure.DTO.IntitutionDto)">
+            <summary>
+            Metodo utilizado para guardar las Language
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.InstitutionController.UpdateInstitution(System.Infrastructure.DTO.IntitutionDto)">
+            <summary>
+            Metodo utilizado para actualizar las Language
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.InstitutionController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar las languaje
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.LanguageController.GetLanguage(System.String,System.Int32)">
+            <summary>
+            Obtiene un resultado paginado de los objetos de la BD.
+            </summary>
+            <param name="Search"></param>
+            <param name="page"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.WebApi.Controllers.LanguageController.GetLanguages(System.Guid)">
+            <summary>
+            Obtiene  la Language atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>      
+        </member>
+        <member name="M:System.WebApi.Controllers.LanguageController.PostLanguage(System.Infrastructure.DTO.LanguajeDto)">
+            <summary>
+            Metodo utilizado para guardar las Language
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.LanguageController.UpdateLanguage(System.Guid,System.Infrastructure.DTO.LanguajeDto)">
+            <summary>
+            Metodo utilizado para actualizar las Language
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.LanguageController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar las languaje
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.LevelController.GetLevel(System.String,System.Int32)">
+            <summary>
+            Lista de  nivel.
+            </summary>
+            <remarks>
+            Metodo que trae todos los nivel del sistema.
+            </remarks>
+        </member>
+        <member name="M:System.WebApi.Controllers.LevelController.GetLevel(System.Guid)">
+            <summary>
+            Obtiene  la Nivel atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>        
+        </member>
+        <member name="M:System.WebApi.Controllers.LevelController.PostLevel(System.Infrastructure.DTO.LevelCreatedtos)">
+            <summary>
+            Metodo utilizado para guardar el nivel
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.LevelController.UpdateLevel(System.Infrastructure.DTO.LevelCreatedtos)">
+            <summary>
+            Metodo utilizado para actualizar las Niveles
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.LevelController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar el Level
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.ModalityController.GetModality(System.String,System.Int32)">
+            <summary>
+            Lista de  Modalidad.
+            </summary>
+            <remarks>
+            Metodo que trae todas las  Modalidad del sistema.
+            </remarks>
+        </member>
+        <member name="M:System.WebApi.Controllers.ModalityController.GetModality(System.Guid)">
+            <summary>
+            Obtiene  la Modalidad atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>        
+        </member>
+        <member name="M:System.WebApi.Controllers.ModalityController.PostModality(System.Infrastructure.DTO.ModalityDto)">
+            <summary>
+            Metodo utilizado para guardar las modalidades
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.ModalityController.UpdateModality(System.Guid,System.Infrastructure.DTO.ModalityDto)">
+            <summary>
+            Metodo utilizado para actualizar las modalidades
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.ModalityController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar las Modalidades
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.PositionController.PostPosition(System.Infrastructure.DTO.PositionDto)">
+            <summary>
+            Metodo utilizado para guardar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.PositionController.UpdatePosition(System.Guid,System.Infrastructure.DTO.PositionDto)">
+            <summary>
+            Metodo utilizado para actualizar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.PositionController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar las Position
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.ProvinceController.Get">
+            <summary>
+            Obtiene un resultado paginado de los objetos de la BD.
+            </summary>     
+        </member>
+        <member name="M:System.WebApi.Controllers.ProvinceController.GetProvince(System.Guid)">
+            <summary>
+            Obtiene  los estado atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>      
+        </member>
+        <member name="M:System.WebApi.Controllers.ProvinceController.PostProvince(System.Infrastructure.ViewModels.ProvinceDto)">
+            <summary>
+            Metodo utilizado para guardar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.ProvinceController.UpdateProvince(System.Guid,System.Infrastructure.ViewModels.ProvinceDto)">
+            <summary>
+            Metodo utilizado para actualizar los Province
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.ProvinceController.DeleteProvince(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar los Province
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.SelectionAvailableController.GetSelections(System.String,System.Int32)">
+            <summary>
+            Lista de  SelectionAvailable.
+            </summary>
+            <remarks>
+            Metodo que trae todos los nivel del sistema.
+            </remarks>
+        </member>
+        <member name="M:System.WebApi.Controllers.SelectionAvailableController.GetSelection(System.Guid)">
+            <summary>
+            Obtiene   atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>        
+        </member>
+        <member name="M:System.WebApi.Controllers.SelectionAvailableController.PostLevel(System.Infrastructure.DTO.SelectionAvailableDto)">
+            <summary>
+            Metodo utilizado para guardar el nivel
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.SelectionAvailableController.UpdateSelection(System.Guid,System.Infrastructure.DTO.SelectionAvailableDto)">
+            <summary>
+            Metodo utilizado para actualizar las Niveles
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.SelectionAvailableController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar el Level
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.SetupController.GetAllRoles">
+            <summary>
+            Obtiene  la lista de los Roles.
+            </summary>
+            <remarks>
+            </remarks>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.SetupController.CreateRole(System.String)">
+            <summary>
+            Metodo encargado de crear Roles
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="name"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.SetupController.GetAlUsers">
+            <summary>
+            Obtiene  la lista de los Usuarios.
+            </summary>
+            <remarks>
+            </remarks>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.SetupController.AddUserToRole(System.String,System.String)">
+            <summary>
+            Metodo que agrega roles a los usuarios atravez de email
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="email"></param>
+            <param name="roleName"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.SetupController.GetUserRoles(System.String)">
+            <summary>
+            Obtiene  el rol de usuario atravez del email.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="email"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.SetupController.RemoveUserFromRole(System.String,System.String)">
+            <summary>
+            Metodo que remueve el rol a los usuarios
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="email"></param>
+            <param name="roleName"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.StateController.Get">
+            <summary>
+            Obtiene un resultado paginado de los objetos de la BD.
+            </summary>     
+        </member>
+        <member name="M:System.WebApi.Controllers.StateController.GetState(System.Guid)">
+            <summary>
+            Obtiene  los estado atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>      
+        </member>
+        <member name="M:System.WebApi.Controllers.StateController.PostState(System.Infrastructure.DTO.StateDto)">
+            <summary>
+            Metodo utilizado para guardar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.StateController.UpdateState(System.Guid,System.Infrastructure.DTO.StateDto)">
+            <summary>
+            Metodo utilizado para actualizar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.StateController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.StudentController.PutUpdateApplican(System.String,System.Infrastructure.DTO.Student.StudentUpdateDto)">
+            <summary>
+            Metodos para registras los datos personales del estudiante
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="email"></param>
+            <param name="request"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
+        </member>
+        <member name="M:System.WebApi.Controllers.StudentController.PostAcademyApplicant(System.Infrastructure.DTO.Student.AcademyApplicantDto)">
+            <summary>
+            Metodo utilizado para guardar Información académica del estudiante
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.StudentController.PostApplicantWork(System.Infrastructure.DTO.Student.ApplicantWorkingDtos)">
+            <summary>
+            Metodo utilizado para guardar el formulario work del estudiante
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.StudentController.PostFile(System.Infrastructure.DTO.Student.ApplicantDocumentDtos)">
+            <summary>
+            metodos que guarda  los documentos de la cedula y el certificado del aplicante.
+            </summary>
+            <remarks>
+            </remarks>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.TandasController.Get">
+            <summary>
+            Obtiene un resultado paginado de los objetos de la BD.
+            </summary>     
+        </member>
+        <member name="M:System.WebApi.Controllers.TandasController.GetTandas(System.Guid)">
+            <summary>
+            Obtiene  los Tandas atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>      
+        </member>
+        <member name="M:System.WebApi.Controllers.TandasController.PostTandas(System.Infrastructure.DTO.TandasDto)">
+            <summary>
+            Metodo utilizado para guardar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.TandasController.UpdateTandas(System.Guid,System.Infrastructure.DTO.TandasDto)">
+            <summary>
+            Metodo utilizado para actualizar los Tandas
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.TandasController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.TrainingController.Get(System.String,System.Int32)">
+            <summary>
+            Obtiene un resultado paginado de los objetos de la BD.
+            </summary>     
+        </member>
+        <member name="M:System.WebApi.Controllers.TrainingController.GetTraining(System.Guid)">
+            <summary>
+            Obtiene  los estado atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>      
+        </member>
+        <member name="M:System.WebApi.Controllers.TrainingController.PostTraining(System.Infrastructure.DTO.TrainingDto)">
+            <summary>
+            Metodo utilizado para guardar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.TrainingController.UpdateTraining(System.Guid,System.Infrastructure.DTO.TrainingDto)">
+            <summary>
+            Metodo utilizado para actualizar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.TrainingController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.TrainingEventController.Get(System.String,System.Int32)">
+            <summary>
+            Obtiene un resultado paginado de los objetos de la BD.
+            </summary>     
+        </member>
+        <member name="M:System.WebApi.Controllers.TrainingEventController.GetTrainingEvent(System.Guid)">
+            <summary>
+            Obtiene  los estado atravéz de su Id.
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id">Id (GUID) del objeto.</param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="200">OK. Devuelve el objeto solicitado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>      
+        </member>
+        <member name="M:System.WebApi.Controllers.TrainingEventController.PostTrainingEvent(System.Infrastructure.DTO.TrainingEventDto)">
+            <summary>
+            Metodo utilizado para guardar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.TrainingEventController.UpdateTrainingEvent(System.Guid,System.Infrastructure.DTO.TrainingEventDto)">
+            <summary>
+            Metodo utilizado para actualizar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <param name="model"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.TrainingEventController.Delete(System.Guid)">
+            <summary>
+            Metodo utilizado para eliminar los estado
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="id"></param>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>              
+            <response code="201">OK. Devuelve el objeto creado.</response>        
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response> 
+        </member>
+        <member name="M:System.WebApi.Controllers.WorkAreasController.GetWorkAreas(System.Int32)">
+            <summary>
+            Lista de  departamento.
+            </summary>
+            <remarks>
+            Metodo que trae todas los departamento.
+            </remarks>
+        </member>
+        <member name="P:System.WebApi.DTos.Student.StudentDto.SIDocumentNo">
+             Student Information
+            
+        </member>
+        <member name="P:System.WebApi.DTos.Student.StudentDto.EIFullName">
+            Emergency Information
+            
+        </member>
+        <member name="P:System.WebApi.DTos.Student.StudentDto.DocNationalFrontImage">
+            Documentos
+            
+        </member>
+        <member name="P:System.WebApi.DTos.Student.StudentDto.AISecundarySchool">
+            Acadamy Information
+            
+        </member>
+        <member name="P:System.WebApi.DTos.Student.StudentDto.WIIsWorking">
+             Work Information
+            
+        </member>
+        <member name="P:System.WebApi.DTos.Student.StudentDto.ACProvidence">
+             Available Studying Centers Information
+            
+        </member>
+        <member name="P:System.WebApi.DTos.Student.StudentDto.ATSelectedTime">
+             Available Time Information
+            
+        </member>
+        <member name="P:System.WebApi.DTos.Student.StudentDto.LIHasAcceptedTerms">
+             Legal Information
+            
+        </member>
+    </members>
+</doc>

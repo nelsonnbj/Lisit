@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "7JKaUzRi6lSN/VZ/X+AU1qFZJIP4FV6OzQbxJFPQdvc=",
+  "Source": "System.WebApi",
+  "BasePath": "_content/System.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "System.WebApi\\wwwroot",
+      "Source": "System.WebApi",
+      "ContentRoot": "C:\\Users\\Kenlly Novas\\Documents\\LenguasExtranjerasBackend\\SystemLenguaExtranjera\\System.Api\\wwwroot\\",
+      "BasePath": "_content/System.WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Kenlly Novas\\Documents\\LenguasExtranjerasBackend\\SystemLenguaExtranjera\\System.Api\\wwwroot\\swagger-ui\\SwaggerDark.css",
+      "SourceId": "System.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenlly Novas\\Documents\\LenguasExtranjerasBackend\\SystemLenguaExtranjera\\System.Api\\wwwroot\\",
+      "BasePath": "_content/System.WebApi",
+      "RelativePath": "swagger-ui/SwaggerDark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger-ui\\SwaggerDark.css"
+    }
+  ]
+}
